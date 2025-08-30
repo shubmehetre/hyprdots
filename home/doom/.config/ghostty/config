@@ -68,3 +68,17 @@ keybind = alt+j=scroll_page_lines:5
 keybind = ctrl+shift+k=increase_font_size:1
 keybind = ctrl+shift+j=decrease_font_size:1
 
+# ── Margins ─────────────────────────────────────────────────────────────────
+# comfortable breathing room
+# left & right padding (single value -> both sides)
+window-padding-x = 8
+
+# top & bottom padding (single value -> both sides)
+# window-padding-y = 6
+window-padding-y = 6
+
+# distribute leftover cell-gap space across edges
+window-padding-balance = true
+
+# how padding area is painted: background | extend | extend-always
+window-padding-color = extend

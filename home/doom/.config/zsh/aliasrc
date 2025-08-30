@@ -27,7 +27,7 @@ alias \
   ytao="yt -x -f bestaudio/best -o '%(playlist_index)s-%(title)s.%(ext)s'" \
   ffmpeg="ffmpeg -hide_banner" \
   kindle_mount="mount -o rw,user,uid=1000,gid=998,umask=007"
-  # yta="yt -x --audio-format opus --cookies-from-browser brave -f bestaudio/best -o '%(title)s.%(ext)s'" \
+# yta="yt -x --audio-format opus --cookies-from-browser brave -f bestaudio/best -o '%(title)s.%(ext)s'" \
 
 # Colorize commands when possible.
 alias \
@@ -56,8 +56,7 @@ alias \
   xq="xbps-query" \
   z="zathura" \
   pwn="ssh hacker@pwn.college" \
-  nyx="ssh nyx@192.168.1.125" 2>/dev/null\
-
+  nyx="ssh nyx@192.168.1.125" 2>/dev/null
 alias \
   magit="nvim -c MagitOnly" \
   ref="shortcuts >/dev/null; source ${XDG_CONFIG_HOME:-$HOME/.config}/shell/shortcutrc ; source ${XDG_CONFIG_HOME:-$HOME/.config}/shell/zshnameddirrc" \
@@ -100,12 +99,16 @@ alias rdp="remote-viewer /home/doom/zzz/files/proxmox_spice_files/*"
 alias run="clear; gcc % ; ./a.out"
 
 # For hyprdots
-alias hyprdots='git --git-dir=/home/$USER/.hyprdots --work-tree=/'
+hldots() {
+  git --git-dir=$HOME/.hyprdots --work-tree=/ "$@"
+}
+compdef hldots=git
+
+# alias hyprdots='git --git-dir=/home/$USER/.hyprdots --work-tree=/'
 
 ff() { fzf | xargs -r -I {} $EDITOR {}; }
 
 # Timer
 timer() {
-    (nohup python3 -u "$HOME/.local/bin/timer.py" "$1" > /dev/null 2>&1 &)
+  (nohup python3 -u "$HOME/.local/bin/timer.py" "$1" >/dev/null 2>&1 &)
 }
-
