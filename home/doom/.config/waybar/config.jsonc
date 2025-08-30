@@ -5,10 +5,10 @@
   "spacing" : 0,
   "modules-left": [
   "hyprland/workspaces",
-  "custom/uptime",
   ],
+//"custom/uptime",
 
-  "modules-center": ["clock"],
+//"modules-center": ["clock"],
 
   "modules-right": [
     "music",
@@ -18,8 +18,9 @@
     "bluetooth",
     "network",
     "pulseaudio", 
-    "backlight",
+//  "backlight",
     "battery",
+    "clock"
   ],
 
   "hyprland/workspaces": {
@@ -46,7 +47,9 @@
         "connected": "󰂱",
         },
     "on-click": "blueman-manager",
-    "tooltip-format-connected":"{device_enumerate}"
+    "tooltip": true,
+    "tooltip-format":"{device_enumerate}"
+//  "tooltip-format-connected":"{device_enumerate}"
   },
 
   "music": {
@@ -62,7 +65,7 @@
   "clock": {
     "timezone": "Asia/Kolkata",
     "tooltip": false,
-    "format": "{:%a %d, %H:%M:%S}",
+    "format": "{:%A %d, %H:%M}",
     "interval": 1
   },
 
@@ -71,8 +74,14 @@
     "format-ethernet": "󰈀 ",
     "format-disconnected": "󰤠 ",
     "interval": 5,
-    "tooltip-format": "{essid} ({signalStrength}%)",
-    "on-click": "nm-connection-editor"
+//  "tooltip-format": "{essid} ({signalStrength}%)",
+    "on-click": "nmtui",
+    "tooltip": true,
+    "tooltip-format": "{ifname} via {gwaddr} 󰊗",
+    "tooltip-format-wifi": "  {ifname} @ {essid}\nIP: {ipaddr}\nStrength: {signalStrength}%\nFreq: {frequency}MHz\nUp: {bandwidthUpBits} Down: {bandwidthDownBits}",
+    "max-length": 50,
+//  "tooltip-format": "{essid} ({signalStrength}%)",
+//  "on-click": "$HOME/.config/waybar/scripts/wifi-menu.sh"
 
  },
 
@@ -109,7 +118,9 @@
     "format-icons": {
       "default": ["", "", " "]
     },
-    "on-click": "pavucontrol"
+//  "on-click": "pavucontrol"
+    "tooltip": true,
+    "on-click": "sh -c 'setsid pavucontrol >/dev/null 2>&1 &'"
   },
 
   "battery": {

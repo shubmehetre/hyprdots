@@ -1,0 +1,15 @@
+2025-08-30T20:21:25 exception: Failed to open "/home/doom/.config/mpd/state_file": No such file or directory
+2025-08-30T20:21:25 exception: Failed to access /home/doom/zzz/synced/Music: No such file or directory
+2025-08-30T20:21:25 exception: inotify_add_watch("/home/doom/zzz/synced/Music") failed: No such file or directory
+2025-08-30T20:21:25 config: option "buffer_time" on line 20 was not recognized
+2025-08-30T20:21:25 config: option "period_time" on line 21 was not recognized
+2025-08-30T20:29:33 exception: Failed to access /home/doom/zzz/synced/Music: No such file or directory
+2025-08-30T20:31:41 exception: inotify_add_watch("/home/doom/zzz/synced/Music") failed: No such file or directory
+2025-08-30T20:31:41 config: option "buffer_time" on line 20 was not recognized
+2025-08-30T20:31:41 config: option "period_time" on line 21 was not recognized
+2025-08-30T20:31:48 exception: Failed to access /home/doom/zzz/synced/Music: No such file or directory
+2025-08-30T20:34:01 exception: Failed to access /home/doom/zzz/synced/Music: No such file or directory
+2025-08-30T20:34:03 exception: Failed to access /home/doom/zzz/synced/Music: No such file or directory
+2025-08-30T20:34:19 config: option "buffer_time" on line 20 was not recognized
+2025-08-30T20:34:19 config: option "period_time" on line 21 was not recognized
+2025-08-30T20:35:11 update: added /The Perfect Home Server Project for Rookies.opus
