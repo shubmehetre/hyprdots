@@ -1,42 +1,80 @@
+# Yazi Config
+
 # ~/.config/yazi/yazi.toml
 
 [mgr]
-# General UI
-show_hidden = true
-scrolloff = 10
-ratio = [1, 2, 3]   # Panel width ratio (left, active, preview)
-linemode = "size"   # Show filesize inline
+ratio = [1, 4, 5]
+sort_by = "natural"
+sort_sensitive = false
+sort_reverse = false
+sort_dir_first = true
+sort_translit = true
+linemode = "size"
+show_hidden = false
+show_symlink = true
+scrolloff = 5
+mouse_events = ["click", "scroll"]
+title_format = ""
 
 [preview]
 wrap = "yes"
 tab_size = 4
-max_width = 1000
-max_height = 800
+max_width = 800
+max_height = 600
+image_delay = 100
+image_filter = "lanczos3"
+image_quality = 80
 
 [opener]
+# Open in terminal editor (blocking)
 edit = [
-  { run = '$EDITOR "$@"', block = true, desc = "Edit with $EDITOR" },
-]
-open = [
-  { run = 'xdg-open "$@"', desc = "Open with system default" },
-]
-image = [
-  { run = 'swayimg "$@"', orphan = true, desc = "Open image viewer" },
-]
-pdf = [
-  { run = 'zathura "$@"', orphan = true, desc = "Open PDF" },
-]
-video = [
-  { run = 'mpv "$@"', orphan = true, desc = "Play video" },
-]
-audio = [
-  { run = 'mpv "$@"', orphan = true, desc = "Play audio" },
+  { run = '$EDITOR "$@"', block = true, for = "unix" },
 ]
 
-[plugin]
-prepend_previewers = [
-  # Force text previewer for dotfiles
-  { name = "*.zshrc", run = "bat --style=plain --color=always --paging=never" },
-  { name = "*.conf", run = "bat --style=plain --color=always --paging=never" },
+# Open in GUI (async, orphan)
+open = [
+  { run = 'xdg-open "$@"', desc = "Open (xdg-open)", orphan = true, for = "unix" },
 ]
+
+# Play with mpv (audio/video)
+play = [
+  { run = 'mpv "$@"', orphan = true, for = "unix" },
+]
+
+# Images in GUI viewer
+image = [
+  { run = 'swayimg "$@"', orphan = true, for = "unix" },
+]
+
+# PDF/documents
+pdf = [
+  { run = 'xdg-open "$@"', orphan = true, for = "unix" },
+]
+
+
+[open]
+rules = [
+  # Text → $EDITOR inside terminal
+  { mime = "text/*", use = "edit" },
+
+  # JSON → $EDITOR
+  { name = "*.json", use = "edit" },
+
+  # Audio/Video → mpv
+  { mime = "audio/*", use = "play" },
+  { mime = "video/*", use = "play" },
+
+  # Images → GUI viewer
+  { mime = "image/*", use = "image" },
+
+  # PDFs
+  { mime = "application/pdf", use = "pdf" },
+
+  # Fallback → xdg-open
+  { name = "*", use = "open" },
+]
+
+
+[input]
+cursor_blink = false
 
