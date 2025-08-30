@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+<action>
+	<icon>com.mitchellh.ghostty</icon>
+	<name>Open Terminal Here</name>
+	<submenu></submenu>
+	<unique-id>1756535721538148-1</unique-id>
+	<command>ghostty --working-directory=%d</command>
+	<description></description>
+	<range></range>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+</action>
+<action>
+	<icon>preferences-desktop-wallpaper</icon>
+	<name>Set as Hyprland Wallpaper</name>
+	<submenu></submenu>
+	<unique-id>1756548982444067-1</unique-id>
+	<command>/home/doom/.local/bin/set-hyprpaper-wallpaper.sh %f</command>
+	<description></description>
+	<range>*</range>
+	<patterns>*.jpg;*.jpeg;*.png;*.bmp;*.webp;*.gif</patterns>
+	<image-files/>
+</action>
+</actions>
