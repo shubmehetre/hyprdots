@@ -1,0 +1,51 @@
+## Mako configuration file
+
+# GLOBAL CONFIGURATION OPTIONS
+max-history=100
+sort=-time
+
+# BINDING OPTIONS
+on-button-left=dismiss
+on-button-middle=none
+on-button-right=dismiss-all
+
+# General
+font=JetBrainsMono Nerd Font 12
+background-color=#1e1e2e
+text-color=#cdd6f4
+# border-color=#89b4fa
+border-size=2
+border-radius=8
+
+default-timeout=5000
+
+# Padding and margins
+padding=8
+margin=10
+
+# Transparency
+background-color=#1e1e2eE6
+
+# Position
+anchor=top-right
+layer=overlay
+
+icons=1
+max-icon-size=64
+
+# Stack notification instead of replace
+sort=-time
+
+[urgency=low]
+border-color=#96CDFB
+default-timeout=2000
+
+[urgency=normal]
+border-color=#96CDFB
+default-timeout=5000
+
+[urgency=high]
+border-color=#F28FAD
+text-color=#F28FAD
+default-timeout=0
+

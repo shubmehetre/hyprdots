@@ -27,7 +27,25 @@ stty stop undef                  # disable ctrl-s freeze
 # #############################################
 bindkey -v                       # vi keybindings
 bindkey '^R' history-incremental-search-backward
+
+###############################################
+# Shell vars
+# #############################################
 export KEYTIMEOUT=1
+
+# Better man page pager (search + colors)
+export MANPAGER="less -R --use-color -Dd+r -Du+b"
+export PAGER="less -R --use-color -Dd+r -Du+b"
+
+# Pretty colors for man
+export LESS_TERMCAP_mb=$'\E[1;31m'
+export LESS_TERMCAP_md=$'\E[1;36m'
+export LESS_TERMCAP_me=$'\E[0m'
+export LESS_TERMCAP_so=$'\E[01;44;33m'
+export LESS_TERMCAP_se=$'\E[0m'
+export LESS_TERMCAP_us=$'\E[1;32m'
+export LESS_TERMCAP_ue=$'\E[0m'
+
 
 ###############################################
 # Vim keys in completion menu
