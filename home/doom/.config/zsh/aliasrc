@@ -31,10 +31,10 @@ alias \
 
 # Colorize commands when possible.
 alias \
-  ls="exa -h --color=auto --group-directories-first" \
-  l="exa	-al --color=auto --group-directories-first" \
-  ll="exa	-al --color=auto --group-directories-first" \
-  lll="exa -al --color=auto --group-directories-first" \
+  ls="eza -h --color=auto --group-directories-first" \
+  l="eza	-al --color=auto --group-directories-first" \
+  ll="eza	-al --color=auto --group-directories-first" \
+  lll="eza -al --color=auto --group-directories-first" \
   grep="grep --color=auto" \
   diff="diff --color=auto" \
   ccat="highlight --out-format=ansi"
