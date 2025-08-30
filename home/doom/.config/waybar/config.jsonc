@@ -18,10 +18,12 @@
     "bluetooth",
     "network",
     "pulseaudio", 
-//  "backlight",
     "battery",
-    "clock"
+    "clock",
   ],
+//  "custom/clipboard"
+//  "backlight",
+
 
   "hyprland/workspaces": {
     "format": "{name}: {icon}",
@@ -35,6 +37,12 @@
   "format": "  ",    // could be "   " for blank space
   "tooltip": false
   },
+
+//"custom/clipboard": {
+//  "format": " 󰨸 ",               // clipboard icon
+//  "tooltip": false,
+//  "on-click": "clipman pick -t wofi"
+//},
 
   "bluetooth": {
     "format": "󰂲",

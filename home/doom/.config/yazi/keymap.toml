@@ -1,0 +1,39 @@
+# Yazi Key bindings
+
+
+[mgr]
+prepend_keymap = [
+  # Vim-style navigation
+  { on = "j",    run = "arrow 1",   desc = "cursor down" },
+  { on = "k",    run = "arrow -1",  desc = "cursor up" },
+  { on = "h",    run = "leave",     desc = "go to parent directory" },
+  { on = "l",    run = "enter",     desc = "open directory / file" },
+  { on = "gg",   run = "arrow top", desc = "go to top" },
+  { on = "G",    run = "arrow bot", desc = "go to bottom" },
+
+  # File operations
+  { on = "y",    run = "yank",          desc = "yank (copy) selected file(s)" },
+  { on = "d",    run = "yank --cut",    desc = "cut (move) selected file(s)" },
+  { on = "p",    run = "paste",         desc = "paste yanked/cut file(s)" },
+  { on = "D",    run = "remove",        desc = "remove selected file(s)" },
+
+  # Create new file/folder
+  { on = "n",    run = "create",        desc = "create file or directory" },
+  { on = "N",    run = "create --dir",  desc = "create directory" },
+
+  # Open/Edit
+  { on = "o",    run = "open",          desc = "open file with default app" },
+  { on = "e",    run = "shell '$EDITOR \"$@\"'", desc = "edit file with $EDITOR" },
+
+  # Hidden files toggle
+  { on = "<C-s>", run = "hidden toggle", desc = "toggle hidden files" },
+
+  # Selection modes
+  { on = " ",    run = "toggle",        desc = "toggle mark on hovered file" },
+  { on = "v",    run = "visual_mode",   desc = "enter visual selection mode" },
+
+  # Quit/help
+  { on = "q",    run = "quit",          desc = "quit" },
+  { on = "?",    run = "help",          desc = "open help menu" },
+]
+

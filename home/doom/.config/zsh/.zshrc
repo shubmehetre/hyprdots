@@ -121,7 +121,19 @@ lfcd () {
         [ -d "$dir" ] && [ "$dir" != "$(pwd)" ] && cd "$dir"
     fi
 }
-bindkey -s '^o' '^ulfcd\n'
+# bindkey -s '^o' '^ulfcd\n'
+
+### --- yazi (file manager) integration ---
+yazicd() {
+    tmp="$(mktemp -t yazi-cwd.XXXXXX)"
+    yazi --cwd-file="$tmp" "$@"
+    if [ -f "$tmp" ]; then
+        cd "$(cat "$tmp")" || return
+        rm -f "$tmp" > /dev/null
+    fi
+}
+bindkey -s '^o' '^uyazicd\n'
+
 # fzf file opener
 ffc() {
   local file

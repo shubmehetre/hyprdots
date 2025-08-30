@@ -1,0 +1,56 @@
+# ~/.config/yazi/theme.toml
+
+[mgr]
+# General UI colors (tokyonight-dark inspired)
+cwd         = { fg = "#7aa2f7", bold = true }
+border      = { fg = "#565f89" }
+preview     = { fg = "#a9b1d6", bg = "#24283b" }
+status      = { fg = "#a9b1d6", bg = "#1a1b26" }
+marker      = { fg = "#bb9af7", bold = true }
+selected    = { fg = "#e0af68", bold = true, underline = true }
+cursor      = { fg = "#24283b", bg = "#7aa2f7", bold = true }
+
+[mode]
+normal      = { fg = "#9ece6a", bold = true }
+visual      = { fg = "#ff9e64", bold = true }
+select      = { fg = "#bb9af7", bold = true }
+unreadable  = { fg = "#565f89" }
+
+[icon]
+# Filetype icons similar to lf + NerdFonts
+directory   = ""
+file        = ""
+symlink     = ""
+executable  = ""
+socket      = ""
+fifo        = ""
+
+# Common extensions
+[icon.ext]
+rs          = ""
+c           = ""
+cpp         = ""
+h           = ""
+html        = ""
+css         = ""
+js          = ""
+ts          = ""
+json        = ""
+py          = ""
+sh          = ""
+zsh         = ""
+md          = ""
+toml        = ""
+yaml        = ""
+yml         = ""
+conf        = ""
+ini         = ""
+lock        = ""
+
+[icon.mime]
+image       = ""
+audio       = ""
+video       = ""
+application = ""
+text        = ""
+

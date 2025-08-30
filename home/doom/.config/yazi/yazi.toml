@@ -1,0 +1,42 @@
+# ~/.config/yazi/yazi.toml
+
+[mgr]
+# General UI
+show_hidden = true
+scrolloff = 10
+ratio = [1, 2, 3]   # Panel width ratio (left, active, preview)
+linemode = "size"   # Show filesize inline
+
+[preview]
+wrap = "yes"
+tab_size = 4
+max_width = 1000
+max_height = 800
+
+[opener]
+edit = [
+  { run = '$EDITOR "$@"', block = true, desc = "Edit with $EDITOR" },
+]
+open = [
+  { run = 'xdg-open "$@"', desc = "Open with system default" },
+]
+image = [
+  { run = 'swayimg "$@"', orphan = true, desc = "Open image viewer" },
+]
+pdf = [
+  { run = 'zathura "$@"', orphan = true, desc = "Open PDF" },
+]
+video = [
+  { run = 'mpv "$@"', orphan = true, desc = "Play video" },
+]
+audio = [
+  { run = 'mpv "$@"', orphan = true, desc = "Play audio" },
+]
+
+[plugin]
+prepend_previewers = [
+  # Force text previewer for dotfiles
+  { name = "*.zshrc", run = "bat --style=plain --color=always --paging=never" },
+  { name = "*.conf", run = "bat --style=plain --color=always --paging=never" },
+]
+
