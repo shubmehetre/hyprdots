@@ -5,13 +5,11 @@
 # If you don't plan on reverting to bash, you can remove the link in ~/.profile
 # to clean up.
 
-echo "profile: start $(date +%s.%N)" >> ~/.cache/login-timing.log
 # Adds `~/.local/bin` to $PATH and also .local/bin/'s subfolders
 # Below may cause late startups. need to test
 # export PATH="$PATH:${$(find ~/.local/bin -type d -printf %p:)%:*}" 
 export PATH="$PATH:$HOME/.local/bin"
 # export PATH="$PATH:${$(find ~/.local/bin -type d -printf %p:)%:*}:${$(find ~/zzz/software -type d -printf %p:)%:*}"
-echo "profile: after path $(date +%s.%N)" >> ~/.cache/login-timing.log
 
 unsetopt PROMPT_SP
 
@@ -50,9 +48,8 @@ export LESSOPEN="| /usr/bin/highlight -O ansi %s 2>/dev/null"
 export QT_QPA_PLATFORMTHEME="qt5ct"	# Have QT use gtk2 theme.
 export MOZ_USE_XINPUT2="1"		# Mozilla smooth scrolling/touchpads.
 
-echo "profile: before uwsm $(date +%s.%N)" >> ~/.cache/login-timing.log
-# Start Hyprland
-if [ -z "$XDG_SESSION_TYPE" ]; then
+# Auto-start Hyprland from TTY1
+if [[ -z $DISPLAY ]] && [[ -z $WAYLAND_DISPLAY ]] && [[ $(tty) == /dev/tty1 ]]; then
   if uwsm check may-start; then
     exec uwsm start hyprland.desktop
   fi
