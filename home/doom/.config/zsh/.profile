@@ -38,6 +38,8 @@ export TMUX_TMPDIR="$XDG_RUNTIME_DIR"
 export HISTFILE="${XDG_DATA_HOME:-$HOME/.local/share}/history"
 
 # Other program settings:
+export LIBVIRT_DEFAULT_URI="qemu:///system"
+export QT_STYLE_OVERRIDE="kvantum"
 export FZF_DEFAULT_OPTS="--layout=reverse --height 40%"
 export LESS=-R
 export LESS_TERMCAP_mb="$(printf '%b' '␛[1;31m')"
@@ -51,10 +53,12 @@ export LESSOPEN="| /usr/bin/highlight -O ansi %s 2>/dev/null"
 export QT_QPA_PLATFORMTHEME="qt5ct"	# Have QT use gtk2 theme.
 export MOZ_USE_XINPUT2="1"		# Mozilla smooth scrolling/touchpads.
 
-# Auto-start Hyprland from TTY1
-if [[ -z $DISPLAY ]] && [[ -z $WAYLAND_DISPLAY ]] && [[ $(tty) == /dev/tty1 ]]; then
-  if uwsm check may-start; then
-    exec uwsm start hyprland.desktop
+# Auto-start Hyprland only on my Arch host (summit), from TTY1
+if [ "$(uname -n)" = "summit" ]; then
+  if [[ -z $DISPLAY ]] && [[ -z $WAYLAND_DISPLAY ]] && [[ $(tty) == /dev/tty1 ]]; then
+    if uwsm check may-start; then
+      exec uwsm start hyprland.desktop
+    fi
   fi
 fi
 

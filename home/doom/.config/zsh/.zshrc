@@ -1,7 +1,7 @@
 # .zshrc for Hyprland setup _ Shub
 
 ### --- Environment & Profile ---
-[ -f ~/.profile ] && source ~/.profile
+[ -f ~/.zprofile ] && source ~/.zprofile
 
 ###############################################
 # History
@@ -83,7 +83,11 @@ preexec() { echo -ne '\e[5 q'; }
 ###############################################
 # Plugins via Zinit
 # #############################################
-source ~/.config/zsh/zinit/zinit.zsh
+
+# source ~/.config/zsh/zinit/zinit.zsh
+if [ -f "${XDG_CONFIG_HOME:-$HOME/.config}/zsh/zinit/zinit.zsh" ]; then
+  source "${XDG_CONFIG_HOME:-$HOME/.config}/zsh/zinit/zinit.zsh"
+fi
 
 zinit light zsh-users/zsh-autosuggestions
 # zinit light zsh-users/zsh-syntax-highlighting
