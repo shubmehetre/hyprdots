@@ -1,0 +1,6 @@
+[virt-viewer]
+share-clipboard=true
+ask-quit=true
+#attckervm
+[1a2522f7-3a69-444b-aab7-a30631639f8b]
+monitor-mapping=1:1;

@@ -1,0 +1,77 @@
+# show-read-feeds no
+auto-reload no
+
+external-url-viewer "urlscan -dc -r 'brave {}'"
+
+# for podcasts
+# go to the podcast rss, press 'e' to enqueue, in new terminal type podboat to see all queued podcats
+player "mpv"
+download-path "/home/doom/.local/share/newsboat/nb_downloads"
+
+bind-key j down
+bind-key k up
+bind-key j next articlelist
+bind-key k prev articlelist
+bind-key J next-feed articlelist
+bind-key K prev-feed articlelist
+bind-key G end
+bind-key g home
+bind-key d pagedown
+bind-key u pageup
+bind-key l open
+bind-key h quit
+bind-key a toggle-article-read
+bind-key n next-unread
+bind-key N prev-unread
+bind-key D pb-download
+bind-key U show-urls
+bind-key x pb-delete
+
+# first color - font color
+# secont color - fill color
+# default means terminal's color
+# standout - hightlight full row to show its read
+#color background          	white   black
+
+color listnormal 		    white 	    default
+color listfocus 		    white 	    black
+color listnormal_unread 	cyan 	    default     bold
+color listfocus_unread  	cyan        black	    bold
+color info 			        white 	    black 	    bold
+color article 			    default 	default
+
+#browser w3m
+browser librewolf
+macro , open-in-browser
+macro t set browser "qndl" ; open-in-browser ; set browser w3m
+macro a set browser "tsp yt-dlp --add-metadata -xic -f bestaudio/best" ; open-in-browser ; set browser w3m
+macro m set browser "setsid -f mpv" ; open-in-browser ; set browser w3m
+macro w set browser "librewolf" ; open-in-browser ; set browser w3m
+macro d set browser "dmenuhandler" ; open-in-browser ; set browser w3m
+macro c set browser "echo %u | xclip -r -sel c" ; open-in-browser ; set browser w3m
+# macro y set browser "youtube-viewer" ; open-in-browser ; set browser w3m (just use mpv)
+macro p set browser "peerflix" ; open-in-browser ; set browser w3m
+macro P set browser "peertubetorrent %u 1080" ; open-in-browser ; set browser w3m
+
+highlight all "~-.*-~" magenta black bold
+highlight feedlist "((0,0))" black
+highlight article "(^Feed:.*|^Title:.*|^Author:.*)" cyan default bold
+highlight article "(^^Date:.*)" white default
+highlight article "(^Link:.*)" green default
+highlight article "https?://[^ ]+" green default
+highlight article "^(Title):.*$" blue default
+highlight article "\\[[0-9][0-9]*\\]" magenta default bold
+highlight article "\\[image\\ [0-9]+\\]" green default bold
+highlight article "\\[embedded flash: [0-9][0-9]*\\]" green default bold
+highlight article ":.*\\(link\\)$" cyan default
+highlight article ":.*\\(image\\)$" blue default
+highlight article ":.*\\(embedded flash\\)$" magenta default
+
+
+feedlist-format "%-65t %?d?- %-65d&? %> %u"
+articlelist-format "%-4i %D      %t"
+feedlist-title-format "%N %V %> %u feeds with new articles"
+articlelist-title-format "%T"
+html-renderer "w3m -dump -T text/HTML -cols 100"
+# highlight article "^(Feed|Title|Author|Link|Date):.*" white default
+notify-format  "%I %d %n %f new articles (%n unread articles, %f unread feeds)"

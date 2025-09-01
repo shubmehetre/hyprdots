@@ -1,0 +1,98 @@
+#  _   _                   ______             _
+# | \ | |                  | ___ \           | |
+# |  \| | _____      _____ | |_/ / ___   __ _| |_
+# | . ` |/ _ \ \ /\ / / __|| ___ \/ _ \ / _` | __|
+# | |\  |  __/\ V  V /\__ \| |_/ / (_) | (_| | |_
+# \_| \_/\___| \_/\_/ |___/\____/ \___/ \__,_|\__|
+#
+# All my RSS urls
+
+-News-
+https://www.moneycontrol.com/rss/buzzingstocks.xml "news"
+http://www.moneycontrol.com/rss/technology.xml "news"
+
+" "
+-Blogs_Podcasts-
+https://razib.substack.com/feed "~Razib Khan" "Blogs"
+https://theknowledgeproject.libsyn.com/rss "~theknowledgeproject" "Blogs"
+http://feeds.feedburner.com/thetimferrissshow "~Tim Ferris Podcast" "Blogs"
+https://feeds.megaphone.fm/ESP8176852521 "~Gab n Juls" "Blogs"
+https://lukesmith.xyz/rss.xml "~Luke Smith Site" "Blogs"
+https://videos.lukesmith.xyz/feeds/videos.xml?sort=-publishedAt "~Luke's Peertube'" "Blogs"
+https://notrelated.xyz/rss "~NotRelated Luke Smith"
+https://cdn.jwz.org/blog/feed/ "~Jamie Zawinski" "Blogs"
+https://www.heroku.com/podcasts/codeish.rss "~heroku devs podcast" "Blogs"
+https://codeblog.jonskeet.uk/feed/ "~Jon Skeet's Blog'" "Blogs"
+https://lunduke.substack.com/feed "~Lunduke Journal" "Blogs"
+
+" "
+-Linux_Security-
+https://danielmiessler.com/feed/ "~Daniel Miessler - InfoSec" "Linux & Security"
+https://lukesmith.xyz/rss.xml "~Luke Smith" "Linux & Security"
+https://www.reddit.com/r/linux.rss "~r/linux" "Linux & Security"
+https://www.reddit.com/r/HowToHack.rss "~r/howtohack" "Linux & Security"
+https://www.reddit.com/r/linux_gaming.rss "~r/linuxgaming" "Linux & Security"
+https://itsfoss.com/feed/ "~itsfoss" "Linux & Security"
+https://tldrsec.com/feed "~tldrsec" "Linux & Security"
+https://textslashplain.com/feed/ "text/plain"
+https://www.xmodulo.com/feed "Xmodulo - Linux FAQ"
+
+" "
+-Programming-
+https://www.reddit.com/r/Python.rss "~r/python" "Programming"
+https://www.reddit.com/r/learnprogramming.rss "~r/learnprogramming" "Programming"
+https://www.reddit.com/r/Python.rss "~r/python" "Programming"
+https://www.reddit.com/r/learnpython.rss "~/learnpython" "Programming"
+https://www.reddit.com/r/ProgrammerHumor.rss "~/programminghumor" "Programming"
+
+" "
+-TECH-
+https://news.ycombinator.com/rss "~Hacker News" "TECH"
+https://www.reddit.com/r/technology.rss "~r/technology" "TECH"
+https://www.reddit.com/r/suckless.rss "~r/suckless" "TECH"
+https://www.reddit.com/r/freesoftware.rss "~e/freesoftware" "TECH"
+
+" "
+-Sports-
+https://feeds.bbci.co.uk/sport/football/rss.xml "Sports"
+https://theathletic.com/premier-league/?rss "Sports"
+http://bleacherreport.com/articles/feed?tag_id=20 "~Bleacher Report" "Sports"
+https://www.theguardian.com/football/rss
+
+" "
+-Youtube-
+https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA "~Luke Smith" "Youtube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCVls1GmFKf6WlTraIb_IaJg "~DistroTube" "Youtube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC7YOGHUfC1Tb6E4pudI9STA "~Mental Outlaw" "Youtube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCBJycsmduvYEL83R_U4JriQ "~MKBHD" "Youtube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC4QZ_LsYcvcq7qOsOhpAX4A "~ColdFusion" "Youtube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCld68syR8Wi-GY_n4CaoJGA "~Brodie Robertson" "Youtube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCtYg149E_wUGVmjGz-TgyNA "~Chris Titus Tech" "Youtube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCSHZKyawb77ixDdsGog4iWA "~Lex Fridman" "Youtube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCS0N5baNlQWJCUrhCEo8WlA "~Ben Eater" "Youtube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC8uT9cgJorJPWu7ITLGo9Ww "~8-Bit Guyo" "Youtube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC9-y-6csu5WGm29I7JiwpnA "~Computerphile" "Youtube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCBa659QWEk1AI4Tg--mrJ2A "~Tom Scott" "Youtube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCsnGwSIHyoYN0kiINAGUKxg "~Wolfgang's Channel" "Youtube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCAuUUnT6oDeKwE6v1NGQxug "~TED" "Youtube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCCezIgC97PvUuR4_gbFUs5g "~Corey Schafer" "Youtube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCxX9wt5FWQUAAz4UrysqK9A "~CS Dojo" "Youtube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UClcE-kVhqyiHCcjYwcpfj9w "~LiveOverflow" "Youtube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCCkVMojdBWS-JtH7TliWkVg "~GynvaelENl" "Youtube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCVeW9qkBjo3zosnqUbG7CFw "~John Hammond" "Youtube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCNzszbnvQeFzObW0ghk0Ckw "~Dave's Garage" "Youtube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC2D2CMWXMOVWx7giW1n3LIg "~Andrew Huberman" "Youtube"
+
+" "
+-reddit-
+
+
+" "
+-Hobbies-
+https://www.reddit.com/r/mkindia.rss "~r/mkindia" "Hobbies"
+https://www.reddit.com/r/unixporn.rss "~r/unixporn" "Hobbies"
+https://www.reddit.com/r/vimporn.rss "~r/vimporn" "Hobbies"
+https://www.reddit.com/r/MechanicalKeyboards.rss "~r/mechanicalkeyboards" "Hobbies"
+https://www.reddit.com/r/suggestmeabook.rss "~r/suggestbooks"
+https://www.reddit.com/r/HistoryPorn.rss "~r/historyporn" "Hobbies"
+https://www.reddit.com/r/Documentaries.rss "~/documentaries" "Hobbies"
