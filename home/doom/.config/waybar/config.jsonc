@@ -13,6 +13,8 @@
   "modules-right": [
     "music",
     "custom/sep",
+    "custom/vpn-ip",
+    "custom/sep",
     "cpu",
     "custom/sep",
     "bluetooth",
@@ -73,7 +75,7 @@
   "clock": {
     "timezone": "Asia/Kolkata",
     "tooltip": false,
-    "format": "{:%A %d, %H:%M}",
+    "format": "{:%a %d %b, %H:%M}",
     "interval": 1
   },
 
@@ -104,6 +106,14 @@
     "interval": 30,
     "format": "  {used:0.1f}G/{total:0.1f}G",
     "tooltip-format": "Memory"
+  },
+
+
+  "custom/vpn-ip": {
+    "format": "{text}",
+    "tooltip": false,
+    "interval": 5,
+    "exec": "$HOME/.config/waybar/scripts/vpn_ip.sh"
   },
 
   "custom/uptime": {

@@ -98,6 +98,10 @@ alias rdp="remote-viewer /home/doom/zzz/files/proxmox_spice_files/*"
 # run c code in vim
 alias run="clear; gcc % ; ./a.out"
 
+# VPN
+alias htb="sudo openvpn /home/doom/zzz/files/vpn/academy-regular.ovpn"
+alias thm="echo 'pending'"
+
 # For hyprdots
 hldots() {
   git --git-dir=$HOME/.hyprdots --work-tree=/ "$@"

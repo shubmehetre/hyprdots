@@ -140,6 +140,8 @@
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
+#custom-vpn-ip { margin: 5px 0px; padding: 0.3rem 0.7rem; background: #1a1b26; color: #ff1b21; border-radius: 6px; }
+
 #bluetooth:hover,
 #pulseaudio:hover,
 #backlight:hover,
@@ -177,6 +179,9 @@
   color: #c6d0f5;
 }
 #backlight {
+  color: #c6d0f5;
+}
+#custom-vpn-ip {
   color: #c6d0f5;
 }
 
