@@ -27,3 +27,5 @@
 2025-09-02T11:36:28 config: option "period_time" on line 21 was not recognized
 2025-09-02T11:42:37 config: option "buffer_time" on line 20 was not recognized
 2025-09-02T11:42:37 config: option "period_time" on line 21 was not recognized
+2025-09-03T09:40:39 config: option "buffer_time" on line 20 was not recognized
+2025-09-03T09:40:39 config: option "period_time" on line 21 was not recognized
