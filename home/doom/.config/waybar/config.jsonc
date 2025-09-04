@@ -11,28 +11,20 @@
 //"modules-center": ["clock"],
 
   "modules-right": [
-    "custom/music",
-    "custom/sep",
-    "tray",
+    "music",
     "custom/sep",
     "custom/vpn-ip",
     "custom/sep",
     "cpu",
     "custom/sep",
-//  "bluetooth",
-//  "network",
+    "bluetooth",
+    "network",
     "pulseaudio", 
     "battery",
     "clock",
   ],
 //  "custom/clipboard"
 //  "backlight",
-
-  "tray": {
-  "icon-size": 18,
-  "spacing": 8,
-  "show-passive-items": true
-},
 
 
   "hyprland/workspaces": {
@@ -70,20 +62,15 @@
 //  "tooltip-format-connected":"{device_enumerate}"
   },
 
-
-  "custom/music": {
-  "format": "   {}",
-  "exec": "mpc current -f '%artist% - %title%' || echo",
-  "interval": 2,
-  "tooltip": false,
-  "on-click": "mpc toggle",
-  "on-click-right": "mpc next",
-  "on-click-middle": "mpc prev",
-  "on-scroll-up": "mpc volume +5",
-  "on-scroll-down": "mpc volume -5",
-  "max-length": 50
-},
-
+  "music": {
+    "format": "  {}",
+    "escape": true,
+    "interval": 5,
+    "tooltip": false,
+    "exec": "playerctl metadata --format='{{ artist }} - {{ title }}'",
+    "on-click": "playerctl play-pause",
+    "max-length": 50
+  },
 
   "clock": {
     "timezone": "Asia/Kolkata",
@@ -112,7 +99,7 @@
     "interval": 1,
     "format": "  {icon0}{icon1}{icon2}{icon3} {usage:>2}%",
     "format-icons": ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"],
-    "on-click": "ghostty -e /usr/bin/btop"
+    "on-click": "ghostty -e htop"
   },
 
   "memory": {

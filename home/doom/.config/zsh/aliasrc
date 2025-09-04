@@ -104,7 +104,7 @@ alias thm="echo 'pending'"
 
 # For hyprdots
 hldots() {
-  git --git-dir=$HOME/.hyprdots --work-tree=/ "$@"
+  git --git-dir=$HOME/.hyprdots --work-tree="$HOME" "$@"
 }
 compdef hldots=git
 

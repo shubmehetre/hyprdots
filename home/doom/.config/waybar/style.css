@@ -228,20 +228,4 @@ tooltip {
   font-size: 12px;
 }
 
-#tray {
-  margin-left: 0px; 
-  border-top-left-radius: 6px;
-  border-bottom-left-radius: 6px;
-}
-#tray {
-  padding: 0 6px;
-}
-#tray menu {
-  /* optional: tweak popup look if your theme allows */
-  font-size: 12px;
-}
 
-#tray {
-  color: #c6d0f5;
-}
-#tray { margin: 5px 0px; padding: 0.3rem 0.7rem; background: #1a1b26; color: #ff1b21; border-radius: 6px; }
