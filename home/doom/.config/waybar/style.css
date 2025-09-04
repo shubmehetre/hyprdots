@@ -229,3 +229,15 @@ tooltip {
 }
 
 
+#tray {
+  margin-left: 0px; 
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+#tray {
+  padding: 0 6px;
+}
+#tray menu {
+  /* optional: tweak popup look if your theme allows */
+  font-size: 12px;
+}

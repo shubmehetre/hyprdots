@@ -13,12 +13,13 @@
   "modules-right": [
     "custom/music",
     "custom/sep",
+    "tray",
     "custom/vpn-ip",
     "custom/sep",
     "cpu",
     "custom/sep",
-    "bluetooth",
-    "network",
+//  "bluetooth",
+//  "network",
     "pulseaudio", 
     "battery",
     "clock",
@@ -26,6 +27,11 @@
 //  "custom/clipboard"
 //  "backlight",
 
+  "tray": {
+    "icon-size": 18,
+    "spacing": 8,
+    "show-passive-items": true
+},
 
   "hyprland/workspaces": {
     "format": "{name}: {icon}",
@@ -63,7 +69,7 @@
   },
 
   "custom/music": {
-  "format": "   {}",
+  "format": "  {}",
   "exec": "mpc current -f '%artist% - %title%' || echo",
   "interval": 2,
   "tooltip": false,
@@ -72,7 +78,8 @@
   "on-click-middle": "mpc prev",
   "on-scroll-up": "mpc volume +5",
   "on-scroll-down": "mpc volume -5",
-  "max-length": 50
+  "max-length": 50,
+  "escape": true
 },
 
 

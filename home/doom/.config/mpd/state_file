@@ -2,8 +2,8 @@ sw_volume: 90
 audio_device_state:1:Pipewire Sound Server
 audio_device_state:1:Visualizer feed
 state: play
-current: 10
-time: 120.531
+current: 32
+time: 120.56
 random: 0
 repeat: 0
 single: 0
@@ -79,4 +79,60 @@ playlist_begin
 63:playlists/Bandana_GAnG/MOST WANTED ｜ MC GAWTHI ｜ OFFICIAL MUSIC VIDEO ｜ PROD.BY YD.opus
 64:playlists/Bandana_GAnG/MOST WANTED ｜ MC GAWTHI ｜ OFFICIAL MUSIC VIDEO ｜ PROD.BY YD.opus
 65:playlists/Bandana_GAnG/SHARN X BOHEMIA - Mi Amor Lyrics Ft Sonam Bajwa ｜ 40K ｜ The Paul 2024 ｜ MegaMix By Mohib Beats.opus
+66:podcasts/theknowledgeproject/Episode_141_Kunal_Shah.mp3
+67:pravachan/OSHO/Mahaveer_Vani/vol_3/OSHO： महावीर वाणी भाग तीन #०१ Mahavir Vani Vol.03 (01 of 18) [2Pi20BEYUx0].opus
+68:pravachan/OSHO/Mahaveer_Vani/vol_3/OSHO： महावीर वाणी भाग तीन #०२ Mahavir Vani Vol.03 (02 of 18) [icJbCnZ9iIw].opus
+69:pravachan/OSHO/Mahaveer_Vani/vol_3/OSHO： महावीर वाणी भाग तीन #०३ Mahavir Vani Vol.03 (03 of 18) [CtdARowSAhw].opus
+70:pravachan/OSHO/Mahaveer_Vani/vol_3/OSHO： महावीर वाणी भाग तीन #०४ Mahavir Vani Vol.03 (04 of 18) [itKorjrRo7Y].opus
+71:pravachan/OSHO/Mahaveer_Vani/vol_3/OSHO： महावीर वाणी भाग तीन #०५ Mahavir Vani Vol.03 (05 of 18) [ZtKfSST1KoI].opus
+72:pravachan/OSHO/Mahaveer_Vani/vol_3/OSHO： महावीर वाणी भाग तीन #०६ Mahavir Vani Vol.03 (06 of 18) [p7dSbJvXkS4].opus
+73:pravachan/OSHO/Mahaveer_Vani/vol_3/OSHO： महावीर वाणी भाग तीन #०७ Mahavir Vani Vol.03 (07 of 18) [lyj16bO17dY].opus
+74:pravachan/OSHO/Mahaveer_Vani/vol_3/OSHO： महावीर वाणी भाग तीन #०८ Mahavir Vani Vol.03 #08 [EXgl4Q-I3lc].opus
+75:pravachan/OSHO/Mahaveer_Vani/vol_3/OSHO： महावीर वाणी भाग तीन #०९ Mahavir Vani Vol.03 #09 [Pk2gYAJSuIU].opus
+76:pravachan/OSHO/Mahaveer_Vani/vol_3/OSHO： महावीर वाणी भाग तीन #१० Mahavir Vani Vol.03 #10 [UgHCTS2cXeg].opus
+77:pravachan/OSHO/Mahaveer_Vani/vol_3/OSHO： महावीर वाणी भाग तीन #११ Mahavir Vani Vol.03 #11 [JhIUTEMaeiE].opus
+78:pravachan/OSHO/Mahaveer_Vani/vol_3/OSHO： महावीर वाणी भाग तीन #१२ Mahavir Vani Vol.03 #12 [8MLgWg_Fn3E].opus
+79:pravachan/OSHO/Mahaveer_Vani/vol_3/OSHO： महावीर वाणी भाग तीन #१३ Mahavir Vani Vol.03 #13 [zEDam4rEZFw].opus
+80:pravachan/OSHO/Mahaveer_Vani/vol_3/OSHO： महावीर वाणी भाग तीन #१४ Mahavir Vani Vol.03 #14 [87AMEx_07Kk].opus
+81:pravachan/OSHO/Mahaveer_Vani/vol_3/OSHO： महावीर वाणी भाग तीन #१५ Mahavir Vani Vol.03 #15 [dGcclSVUb9Q].opus
+82:pravachan/OSHO/Mahaveer_Vani/vol_3/OSHO： महावीर वाणी भाग तीन #१६ Mahavir Vani Vol.03 #16 [9zvhalQcxTo].opus
+83:pravachan/OSHO/Mahaveer_Vani/vol_3/OSHO： महावीर वाणी भाग तीन #१७ Mahavir Vani Vol.03 #17 [pby46H4CzYk].opus
+84:pravachan/OSHO/Mahaveer_Vani/vol_3/OSHO： महावीर वाणी भाग तीन #१८ Mahavir Vani Vol.03 #18 [nUWXxogXhJo].opus
+85:pravachan/OSHO/Mahaveer_Vani/vol_2/OSHO： महावीर वाणी भाग दो #०१ Mahavir Vani Vol.02 (01 of 18) [gCE2fuvCDhw].opus
+86:pravachan/OSHO/Mahaveer_Vani/vol_2/OSHO： महावीर वाणी भाग दो #०२ Mahavir Vani Vol.02 (02 of 18) [VSE0ojxTGNk].opus
+87:pravachan/OSHO/Mahaveer_Vani/vol_2/OSHO： महावीर वाणी भाग दो #०३ Mahavir Vani Vol.02 (03 of 18) [Vy_SuJY3XH0].opus
+88:pravachan/OSHO/Mahaveer_Vani/vol_2/OSHO： महावीर वाणी भाग दो #०४ Mahavir Vani Vol.02 (04 of 18) [Boiv493-jx4].opus
+89:pravachan/OSHO/Mahaveer_Vani/vol_2/OSHO： महावीर वाणी भाग दो #०५ Mahavir Vani Vol.02 (05 of 18) [6ouNbDgTMfU].opus
+90:pravachan/OSHO/Mahaveer_Vani/vol_2/OSHO： महावीर वाणी भाग दो #०६ Mahavir Vani Vol.02 (06 of 18) [TQq6Kt5gQEg].opus
+91:pravachan/OSHO/Mahaveer_Vani/vol_2/OSHO： महावीर वाणी भाग दो #०७ Mahavir Vani Vol.02 (07 of 18) [2kHdoO-cx4Y].opus
+92:pravachan/OSHO/Mahaveer_Vani/vol_2/OSHO： महावीर वाणी भाग दो #०८ Mahavir Vani Vol.02 (08 of 18) [pE0t8hkBfg4].opus
+93:pravachan/OSHO/Mahaveer_Vani/vol_2/OSHO： महावीर वाणी भाग दो #०९ Mahavir Vani Vol.02 (09 of 18) [suOyxK-o7BQ].opus
+94:pravachan/OSHO/Mahaveer_Vani/vol_2/OSHO： महावीर वाणी भाग दो #१० Mahavir Vani Vol.02 (10 of 18) [nOjV1TPNyw0].opus
+95:pravachan/OSHO/Mahaveer_Vani/vol_2/OSHO： महावीर वाणी भाग दो #११ Mahavir Vani Vol.02 (11 of 18) [x75pbsZ6y_s].opus
+96:pravachan/OSHO/Mahaveer_Vani/vol_2/OSHO： महावीर वाणी भाग दो #१२ Mahavir Vani Vol.02 (12 of 18) [7BMtVDVKKAk].opus
+97:pravachan/OSHO/Mahaveer_Vani/vol_2/OSHO： महावीर वाणी भाग दो #१३ Mahavir Vani Vol.02 (13 of 18) [HRZdtWhA2nc].opus
+98:pravachan/OSHO/Mahaveer_Vani/vol_2/OSHO： महावीर वाणी भाग दो #१४ Mahavir Vani Vol.02 (14 of 18) [fdYHF0htwWk].opus
+99:pravachan/OSHO/Mahaveer_Vani/vol_2/OSHO： महावीर वाणी भाग दो #१५ Mahavir Vani Vol.02 (15 of 18) [v4bt3EV7JMQ].opus
+100:pravachan/OSHO/Mahaveer_Vani/vol_2/OSHO： महावीर वाणी भाग दो #१६ Mahavir Vani Vol.02 (16 of 18) [bFLKDtEqQ0U].opus
+101:pravachan/OSHO/Mahaveer_Vani/vol_2/OSHO： महावीर वाणी भाग दो #१७ Mahavir Vani Vol.02 (17 of 18) [0hz-F_VOLcs].opus
+102:pravachan/OSHO/Mahaveer_Vani/vol_2/OSHO： महावीर वाणी भाग दो #१८ Mahavir Vani Vol.02 (18 of 18) [kJfDzo3LziY].opus
+103:pravachan/OSHO/Mahaveer_Vani/vol_1/Vol.01 (01 of 18).opus
+104:pravachan/OSHO/Mahaveer_Vani/vol_1/Vol.01 (03 of 18).opus
+105:pravachan/OSHO/Mahaveer_Vani/vol_1/Vol.01 (04 of 18).opus
+106:pravachan/OSHO/Mahaveer_Vani/vol_1/Vol.01 (06 of 18).opus
+107:pravachan/OSHO/Mahaveer_Vani/vol_1/Vol.01 (07 of 18).opus
+108:pravachan/OSHO/Mahaveer_Vani/vol_1/Vol.01 (08 of 18).opus
+109:pravachan/OSHO/Mahaveer_Vani/vol_1/Vol.01 (09 of 18).opus
+110:pravachan/OSHO/Mahaveer_Vani/vol_1/Vol.01 (10 of 18).opus
+111:pravachan/OSHO/Mahaveer_Vani/vol_1/Vol.01 (11 of 18).opus
+112:pravachan/OSHO/Mahaveer_Vani/vol_1/Vol.01 (12 of 18).opus
+113:pravachan/OSHO/Mahaveer_Vani/vol_1/Vol.01 (13 of 18).opus
+114:pravachan/OSHO/Mahaveer_Vani/vol_1/Vol.01 (14 of 18).opus
+115:pravachan/OSHO/Mahaveer_Vani/vol_1/Vol.01 (15 of 18).opus
+116:pravachan/OSHO/Mahaveer_Vani/vol_1/Vol.01 (16 of 18).opus
+117:pravachan/OSHO/Mahaveer_Vani/vol_1/Vol.01 (17 of 18).opus
+118:pravachan/OSHO/Mahaveer_Vani/vol_1/Vol.01 (18 of 18).opus
+119:random/Vol_01 (01 of 18).webm
+120:podcasts/Episode_155_Best_of_2022.mp3
+121:playlists/Core/2 Chainz, Wiz Khalifa - We Own It (Fast & Furious).mp3
 playlist_end
