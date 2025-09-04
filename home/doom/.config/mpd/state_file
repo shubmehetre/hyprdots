@@ -1,7 +1,9 @@
-sw_volume: 100
+sw_volume: 90
 audio_device_state:1:Pipewire Sound Server
 audio_device_state:1:Visualizer feed
-state: stop
+state: play
+current: 8
+time: 120.11200000000001
 random: 0
 repeat: 0
 single: 0
@@ -9,6 +11,72 @@ consume: 0
 crossfade: 0
 mixrampdb: 0
 mixrampdelay: -1
-lastloadedplaylist: 
+lastloadedplaylist: on_repeat
 playlist_begin
+0:playlists/Core/2 Chainz, Wiz Khalifa - We Own It (Fast & Furious).mp3
+1:playlists/Core/21 Savage, Metro Boomin - No Heart.mp3
+2:playlists/The_Hood/Travis Scott - goosebumps.mp3
+3:playlists/The_Hood/Easturn Vantage, Freddie Gibbs, 2Pac, RZA - Built for This.mp3
+4:playlists/The_Hood/Method Man, Redman, Saukrates - A-YO.mp3
+5:playlists/Bandana_GAnG/Seedhe Maut - 101.mp3
+6:playlists/The_Hood/Travis Scott - BUTTERFLY EFFECT.mp3
+7:playlists/The_Hood/2Pac - Ambitionz Az A Ridah.mp3
+8:playlists/The_Hood/Tyga - Ice Cream Man (Audio) [rwSB4T97xt0].opus
+9:playlists/The_Hood/J. Cole - No Role Modelz.mp3
+10:playlists/The_Hood/Dr. Dre, Hittman - Big Ego's.mp3
+11:remix/Eminem, Offset, Tyga, Metro Boomin - 'Ric Flair Drip x Dubai Drip' Nitin Randhawa Remix.opus
+12:playlists/The_Hood/Travis Scott - STARGAZING.mp3
+13:playlists/The_Hood/Travis Scott - YOSEMITE.mp3
+14:playlists/The_Hood/Joyner Lucas - Revenge.mp3
+15:playlists/The_Hood/Post Malone, Ty Dolla #ign - Psycho (feat. Ty Dolla #ign).mp3
+16:playlists/The_Hood/Travis Scott - Antidote.mp3
+17:playlists/The_Hood/Eminem, Royce Da 5'9# - Not Alike (feat. Royce Da 5'9).mp3
+18:playlists/The_Hood/Travis Scott - HIGHEST IN THE ROOM.mp3
+19:playlists/The_Hood/Xzibit, Eminem, Nate Dogg - My Name (feat. Eminem & Nate Dogg).mp3
+20:playlists/Core/Akon, Eminem - Smack That.mp3
+21:playlists/Core/Akon - Don't Matter.mp3
+22:playlists/Bandana_GAnG/DIVINE, Sikander Kahlon - Bandana Gang.mp3
+23:playlists/Bandana_GAnG/Seedhe Maut - Do Guna.mp3
+24:playlists/Bandana_GAnG/DIVINE - 3#59 AM.mp3
+25:playlists/Bandana_GAnG/DIVINE, Sikander Kahlon - Bandana Gang.mp3
+26:playlists/Bandana_GAnG/DIVINE, Aavrutti, D'Evil, Shah Rule - Vibe Hai.mp3
+27:playlists/The_Hood/Snoop Dogg, Master P, Nate Dogg, Butch Cassidy, Tha Eastsidaz - Lay Low.mp3
+28:playlists/The_Hood/JAY-Z, Swizz Beatz - On To The Next One.mp3
+29:playlists/The_Hood/Tyga - Ice Cream Man (Audio) [rwSB4T97xt0].opus
+30:playlists/The_Hood/Tyga, The Game - Switch Lanes.mp3
+31:playlists/The_Hood/G-Eazy, Yo Gotti, YBN Nahmir - 1942 (feat. Yo Gotti & YBN Nahmir).mp3
+32:playlists/The_Hood/G-Eazy, Halsey - Him & I (with Halsey).mp3
+33:playlists/The_Hood/G-Eazy, A#AP Rocky, Cardi B - No Limit.mp3
+34:playlists/The_Hood/G-Eazy, Blueface - West Coast.mp3
+35:playlists/The_Hood/G-Eazy, Bebe Rexha - Me, Myself & I.mp3
+36:playlists/Bandana_GAnG/Fotty Seven - Gooda.mp3
+37:playlists/Core/Justin Timberlake, JAY-Z - Suit & Tie (feat. Jay-Z).mp3
+38:playlists/The_Hood/JAY-Z, Linkin Park - Dirt off Your Shoulder # Lying From You.mp3
+39:playlists/The_Hood/JAY-Z, Linkin Park - Numb # Encore.mp3
+40:playlists/The_Hood/JAY-Z - 99 Problems.mp3
+41:playlists/The_Hood/JAY-Z - Hard Knock Life (Ghetto Anthem).mp3
+42:playlists/The_Hood/JAY-Z - Dirt Off Your Shoulder.mp3
+43:playlists/The_Hood/JAY-Z, Kanye West - Ni##as In Paris.mp3
+44:remix/2Pac ft. Method Man & Ice Cube - Thug Nation (ft. Eazy E)-MWjVlMwfPxw.opus
+45:remix/Eminem, Offset, Tyga, Metro Boomin - 'Ric Flair Drip x Dubai Drip' Nitin Randhawa Remix.opus
+46:remix/Method Man, 2Pac, Ice Cube, Eazy E - Built For This feat Freddie Gibbs  [HD]-U-dwjybcAZw.m4a
+47:remix/N.W.A., Eazy-E, Dr. Dre, 2Pac and Eminem - BIG EGOS.opus
+48:hip-hop/kdot/good kid, m.A.A.d city/08-m.A.A.d city.opus
+49:playlists/The_Hood/Kendrick Lamar - DNA..mp3
+50:playlists/The_Hood/Kendrick Lamar - HUMBLE..mp3
+51:playlists/The_Hood/Alright.opus
+52:playlists/The_Hood/Uproar.opus
+53:playlists/Bandana_GAnG/DIVINE - Punya Paap.mp3
+54:playlists/The_Hood/Geto Boys - Mind Playing Tricks on Me.mp3
+55:playlists/The_Hood/Ice Cube - Why We Thugs.mp3
+56:hip-hop/marathi/RX100 - MC GAWTHI (PROD.BY YD ) OFFCIAL MUSIC VIDEO 2022.opus
+57:hip-hop/cypher/BET CYPHER SHADY 2.0 EMINEM _ SLAUGHTERHOUSE _YELAWOLF JOE BUDDEN ROYCE 5’9-CbPhegUvBtk.mkv
+58:playlists/Bandana_GAnG/NUMBERKARI ｜ MC GAWTHI ｜ OFFICIAL MUSIC VIDEO ｜ Prod. By @andhadhoon_ ｜#mcgawthi.opus
+59:playlists/Bandana_GAnG/Seedhe Maut - 'Namastute' ｜ Azadi Records.m4a
+60:playlists/Bandana_GAnG/BATTI - Seedhe Maut x Sez on the Beat ft Ab 17.opus
+61:playlists/Bandana_GAnG/Gabru Da Naam (Official Video) - Ninja ｜ Deep Jandu ｜ Latest Punjabi Song 2023.opus
+62:playlists/Bandana_GAnG/Murder.opus
+63:playlists/Bandana_GAnG/MOST WANTED ｜ MC GAWTHI ｜ OFFICIAL MUSIC VIDEO ｜ PROD.BY YD.opus
+64:playlists/Bandana_GAnG/MOST WANTED ｜ MC GAWTHI ｜ OFFICIAL MUSIC VIDEO ｜ PROD.BY YD.opus
+65:playlists/Bandana_GAnG/SHARN X BOHEMIA - Mi Amor Lyrics Ft Sonam Bajwa ｜ 40K ｜ The Paul 2024 ｜ MegaMix By Mohib Beats.opus
 playlist_end
