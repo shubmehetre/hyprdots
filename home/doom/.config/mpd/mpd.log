@@ -29,3 +29,58 @@
 2025-09-02T11:42:37 config: option "period_time" on line 21 was not recognized
 2025-09-03T09:40:39 config: option "buffer_time" on line 20 was not recognized
 2025-09-03T09:40:39 config: option "period_time" on line 21 was not recognized
+2025-09-05T09:11:00 config: option "buffer_time" on line 20 was not recognized
+2025-09-05T09:11:00 config: option "period_time" on line 21 was not recognized
+2025-09-05T12:51:13 player: played "playlists/The_Hood/Uproar.opus"
+2025-09-05T12:52:18 ffmpeg/opus: Could not update timestamps for skipped samples.
+2025-09-05T12:55:26 ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+2025-09-05T12:55:26 ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+2025-09-05T12:55:26 ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+2025-09-05T12:55:26 ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+2025-09-05T12:55:26 ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+2025-09-05T12:55:26 ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+2025-09-05T12:55:27 ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+2025-09-05T12:55:27 ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+2025-09-05T12:55:27 ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+2025-09-05T12:55:27 ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+2025-09-05T12:55:27 ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+2025-09-05T12:55:27 ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+2025-09-05T12:55:27 ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+2025-09-05T12:55:27 ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+2025-09-05T12:55:27 ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+2025-09-05T12:55:27 ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+2025-09-05T12:55:27 ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+2025-09-05T12:55:27 ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+2025-09-05T12:55:27 ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+2025-09-05T12:55:28 ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+2025-09-05T12:55:28 ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+2025-09-05T12:55:28 ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+2025-09-05T12:55:28 ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+2025-09-05T12:55:28 ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+2025-09-05T12:55:28 ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+2025-09-05T12:55:29 ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+2025-09-05T12:55:29 ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+2025-09-05T12:55:29 ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+2025-09-05T12:55:29 ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+2025-09-05T12:55:29 ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+2025-09-05T12:55:29 ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+2025-09-05T12:55:29 ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+2025-09-05T12:55:29 ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+2025-09-05T12:55:29 ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+2025-09-05T12:55:30 ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+2025-09-05T12:55:31 ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+2025-09-05T12:55:31 ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+2025-09-05T12:55:31 ffmpeg/matroska,webm: File is broken, keyframes not correctly marked!
+2025-09-05T12:57:43 ffmpeg/opus: Could not update timestamps for discarded samples.
+2025-09-05T13:01:29 player: played "playlists/Bandana_GAnG/NUMBERKARI ｜ MC GAWTHI ｜ OFFICIAL MUSIC VIDEO ｜ Prod. By @andhadhoon_ ｜#mcgawthi.opus"
+2025-09-05T13:06:30 player: played "playlists/Bandana_GAnG/BATTI - Seedhe Maut x Sez on the Beat ft Ab 17.opus"
+2025-09-05T13:09:45 player: played "playlists/Bandana_GAnG/Gabru Da Naam (Official Video) - Ninja ｜ Deep Jandu ｜ Latest Punjabi Song 2023.opus"
+2025-09-05T15:54:21 player: played "pravachan/OSHO/Mahaveer_Vani/vol_3/OSHO： महावीर वाणी भाग तीन #०१ Mahavir Vani Vol.03 (01 of 18) [2Pi20BEYUx0].opus"
+2025-09-05T15:57:06 config: option "buffer_time" on line 20 was not recognized
+2025-09-05T15:57:06 config: option "period_time" on line 21 was not recognized
+2025-09-05T23:26:19 player: played "pravachan/OSHO/Mahaveer_Vani/vol_3/OSHO： महावीर वाणी भाग तीन #०१ Mahavir Vani Vol.03 (01 of 18) [2Pi20BEYUx0].opus"
+2025-09-05T23:29:05 config: option "buffer_time" on line 20 was not recognized
+2025-09-05T23:29:05 config: option "period_time" on line 21 was not recognized
+2025-09-05T23:29:19 player: played "pravachan/OSHO/Mahaveer_Vani/vol_3/OSHO： महावीर वाणी भाग तीन #०१ Mahavir Vani Vol.03 (01 of 18) [2Pi20BEYUx0].opus"
+2025-09-06T08:37:59 config: option "buffer_time" on line 20 was not recognized
+2025-09-06T08:37:59 config: option "period_time" on line 21 was not recognized

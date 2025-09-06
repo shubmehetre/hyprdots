@@ -242,3 +242,13 @@ tooltip {
   font-size: 12px;
 }
 #tray { margin: 5px 0px; padding: 0.3rem 0.7rem; background: #1a1b26; color: #ff1b21; border-radius: 6px; }
+
+#memory {
+  margin-left: 0px; 
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+#memory {
+  padding: 0 6px;
+}
+#memory { margin: 5px 0px; padding: 0.3rem 0.7rem; background: #1a1b26; color: #c6d0f5; border-radius: 6px; }

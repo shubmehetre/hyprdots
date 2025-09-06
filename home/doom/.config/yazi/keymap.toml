@@ -7,7 +7,9 @@ prepend_keymap = [
   { on = "j",    run = "arrow 1",   desc = "cursor down" },
   { on = "k",    run = "arrow -1",  desc = "cursor up" },
   { on = "h",    run = "leave",     desc = "go to parent directory" },
-  { on = "l",    run = "enter",     desc = "open directory / file" },
+# { on = "l",    run = "enter",     desc = "open directory / file" },
+# to setup smart-enter run command: ya pkg add yazi-rs/plugins:smart-enter
+  { on = "l",    run = "plugin smart-enter",     desc = "open directory / file" },
   { on = "gg",   run = "arrow top", desc = "go to top" },
   { on = "G",    run = "arrow bot", desc = "go to bottom" },
 
@@ -35,7 +37,10 @@ prepend_keymap = [
 
   # Quit/help
   { on = "q",    run = "quit",          desc = "quit" },
+  { on = "<Esc>",    run = "close",          desc = "cancel command" },
   { on = "?",    run = "help",          desc = "open help menu" },
+
+  { on = "b", for = "linux", run = 'shell -- ~/.local/bin/set-hyprpaper-wallpaper.sh "$0"', desc = "Set hovered file as wallpaper (scripted)"},
 ]
 
 
