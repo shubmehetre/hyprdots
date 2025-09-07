@@ -34,14 +34,14 @@ bind-key x pb-delete
 #color background          	white   black
 
 color listnormal 		    white 	    default
-color listfocus 		    white 	    black
+color listfocus 		    black 	    green
+color listfocus_unread  	black        green	    bold
 color listnormal_unread 	cyan 	    default     bold
-color listfocus_unread  	cyan        black	    bold
 color info 			        white 	    black 	    bold
 color article 			    default 	default
 
 #browser w3m
-browser librewolf
+browser firefox
 macro , open-in-browser
 macro t set browser "qndl" ; open-in-browser ; set browser w3m
 macro a set browser "tsp yt-dlp --add-metadata -xic -f bestaudio/best" ; open-in-browser ; set browser w3m
