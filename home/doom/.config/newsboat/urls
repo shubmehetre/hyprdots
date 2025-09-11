@@ -33,7 +33,6 @@ https://www.reddit.com/r/linux.rss "~r/linux" "Linux & Security"
 https://www.reddit.com/r/HowToHack.rss "~r/howtohack" "Linux & Security"
 https://www.reddit.com/r/linux_gaming.rss "~r/linuxgaming" "Linux & Security"
 https://itsfoss.com/feed/ "~itsfoss" "Linux & Security"
-https://tldrsec.com/feed "~tldrsec" "Linux & Security"
 https://textslashplain.com/feed/ "text/plain"
 https://www.xmodulo.com/feed "Xmodulo - Linux FAQ"
 
@@ -46,17 +45,16 @@ https://www.reddit.com/r/learnpython.rss "~/learnpython" "Programming"
 https://www.reddit.com/r/ProgrammerHumor.rss "~/programminghumor" "Programming"
 
 " "
--TECH-
+-TECH Blogs-
 https://news.ycombinator.com/rss "~Hacker News" "TECH"
 https://www.reddit.com/r/technology.rss "~r/technology" "TECH"
+https://iximiuz.com/feed.rss "~iximiuz" "TECH"
 https://www.reddit.com/r/suckless.rss "~r/suckless" "TECH"
 https://www.reddit.com/r/freesoftware.rss "~e/freesoftware" "TECH"
 
 " "
 -Sports-
 https://feeds.bbci.co.uk/sport/football/rss.xml "Sports"
-https://theathletic.com/premier-league/?rss "Sports"
-http://bleacherreport.com/articles/feed?tag_id=20 "~Bleacher Report" "Sports"
 https://www.theguardian.com/football/rss
 
 " "
