@@ -21,13 +21,13 @@ https://lukesmith.xyz/rss.xml "~Luke Smith Site" "Blogs"
 https://videos.lukesmith.xyz/feeds/videos.xml?sort=-publishedAt "~Luke's Peertube'" "Blogs"
 https://notrelated.xyz/rss "~NotRelated Luke Smith"
 https://cdn.jwz.org/blog/feed/ "~Jamie Zawinski" "Blogs"
-https://www.heroku.com/podcasts/codeish.rss "~heroku devs podcast" "Blogs"
 https://codeblog.jonskeet.uk/feed/ "~Jon Skeet's Blog'" "Blogs"
 https://lunduke.substack.com/feed "~Lunduke Journal" "Blogs"
 
 " "
 -Linux_Security-
 https://danielmiessler.com/feed/ "~Daniel Miessler - InfoSec" "Linux & Security"
+https://feeds.blubrry.com/feeds/bhis.xml "~Podcast: Black Hill Security" "Linux & Security"
 https://lukesmith.xyz/rss.xml "~Luke Smith" "Linux & Security"
 https://www.reddit.com/r/linux.rss "~r/linux" "Linux & Security"
 https://www.reddit.com/r/HowToHack.rss "~r/howtohack" "Linux & Security"
@@ -43,6 +43,7 @@ https://www.reddit.com/r/learnprogramming.rss "~r/learnprogramming" "Programming
 https://www.reddit.com/r/Python.rss "~r/python" "Programming"
 https://www.reddit.com/r/learnpython.rss "~/learnpython" "Programming"
 https://www.reddit.com/r/ProgrammerHumor.rss "~/programminghumor" "Programming"
+https://www.heroku.com/podcasts/codeish.rss "~heroku devs podcast" "Blogs"
 
 " "
 -TECH Blogs-

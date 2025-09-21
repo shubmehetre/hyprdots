@@ -97,7 +97,8 @@
     "timezone": "Asia/Kolkata",
     "tooltip": false,
     "format": "{:%a %d %b, %H:%M}",
-    "interval": 1
+    "interval": 1,
+    "on-click": "ghostty -e sh -c 'cal -3; read'"
   },
 
   "network": {
