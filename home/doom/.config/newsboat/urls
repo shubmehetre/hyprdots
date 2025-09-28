@@ -33,8 +33,9 @@ https://www.reddit.com/r/linux.rss "~r/linux" "Linux & Security"
 https://www.reddit.com/r/HowToHack.rss "~r/howtohack" "Linux & Security"
 https://www.reddit.com/r/linux_gaming.rss "~r/linuxgaming" "Linux & Security"
 https://itsfoss.com/feed/ "~itsfoss" "Linux & Security"
-https://textslashplain.com/feed/ "text/plain"
-https://www.xmodulo.com/feed "Xmodulo - Linux FAQ"
+https://textslashplain.com/feed/ "text/plain" "Linux & Security"
+https://www.xmodulo.com/feed "Xmodulo - Linux FAQ" "Linux & Security"
+https://dirkjanm.io/feed.xml "Dirk-jan Mollema" " "Linux & Security"
 
 " "
 -Programming-

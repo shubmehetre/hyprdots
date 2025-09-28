@@ -239,3 +239,30 @@ Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fu
 2025-09-20T23:19:21 player: played "playlists/focus/Boris Brejcha Style @ Art of Minimal Techno Cartoon Tripping - The Mad Doctor by RTTWLR.opus"
 2025-09-21T09:58:07 config: option "buffer_time" on line 20 was not recognized
 2025-09-21T09:58:07 config: option "period_time" on line 21 was not recognized
+2025-09-21T22:57:26 player: played "playlists/focus/Programming _ Coding _ Hacking music vol.18 (ANONYMOUS HEADQUARTERS)-Z-VfaG9ZN_U.opus"
+2025-09-22T00:26:21 player: played "playlists/focus/Kryptic Minds  - Can't Sleep ( Full Album ).opus"
+2025-09-22T12:20:12 config: option "buffer_time" on line 20 was not recognized
+2025-09-22T12:20:12 config: option "period_time" on line 21 was not recognized
+2025-09-22T14:10:16 player: played "playlists/focus/Kryptic Minds  - Can't Sleep ( Full Album ).opus"
+2025-09-22T23:32:09 player: played "playlists/focus/Boris Brejcha Style @ Art of Minimal Techno Cartoon Tripping - The Mad Doctor by RTTWLR.opus"
+2025-09-23T19:47:39 config: option "buffer_time" on line 20 was not recognized
+2025-09-23T19:47:39 config: option "period_time" on line 21 was not recognized
+2025-09-24T00:13:37 player: played "playlists/focus/Boris Brejcha Style @ Art of Minimal Techno Cartoon Tripping - The Mad Doctor by RTTWLR.opus"
+2025-09-24T09:29:57 config: option "buffer_time" on line 20 was not recognized
+2025-09-24T09:29:57 config: option "period_time" on line 21 was not recognized
+2025-09-24T22:55:40 config: option "buffer_time" on line 20 was not recognized
+2025-09-24T22:55:40 config: option "period_time" on line 21 was not recognized
+2025-09-25T09:39:04 config: option "buffer_time" on line 20 was not recognized
+2025-09-25T09:39:04 config: option "period_time" on line 21 was not recognized
+2025-09-26T08:57:29 config: option "buffer_time" on line 20 was not recognized
+2025-09-26T08:57:29 config: option "period_time" on line 21 was not recognized
+2025-09-27T16:27:34 pipewire_output: Decoder is too slow; playing silence to avoid xrun
+2025-09-27T16:27:34 pipewire_output: Decoder is too slow; playing silence to avoid xrun
+2025-09-27T16:32:08 pipewire_output: Decoder is too slow; playing silence to avoid xrun
+2025-09-27T16:32:08 pipewire_output: Decoder is too slow; playing silence to avoid xrun
+2025-09-27T21:23:34 pipewire_output: Decoder is too slow; playing silence to avoid xrun
+2025-09-27T21:23:34 pipewire_output: Decoder is too slow; playing silence to avoid xrun
+2025-09-27T21:23:34 pipewire_output: Decoder is too slow; playing silence to avoid xrun
+2025-09-28T00:26:08 player: played "playlists/focus/Programming _ Coding _ Hacking music vol.18 (ANONYMOUS HEADQUARTERS)-Z-VfaG9ZN_U.opus"
+2025-09-28T15:11:58 config: option "buffer_time" on line 20 was not recognized
+2025-09-28T15:11:58 config: option "period_time" on line 21 was not recognized
