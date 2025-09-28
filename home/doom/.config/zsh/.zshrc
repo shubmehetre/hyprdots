@@ -141,18 +141,20 @@ bindkey -s '^o' '^uyazicd\n'
 # fzf file opener
 ffc() {
   local file
-  file=$(du -a "$HOME/.config" "$HOME/.local/bin" \
-    --exclude="$HOME/.config/libreoffice" \
-    --exclude="$HOME/.config/BraveSoftware" \
-    --exclude="$HOME/.config/JetBrains" \
-    --exclude="$HOME/.config/joplin-desktop" 2>/dev/null | \
-    awk '{print $2}' | fzf --height 40% --layout=reverse --border)
-  
-  if [[ -n "$file" && -f "$file" ]]; then
+  file=$(find "$HOME" \
+    -path "$HOME/.config/libreoffice" -prune -o \
+    -path "$HOME/.config/BraveSoftware" -prune -o \
+    -path "$HOME/.config/JetBrains" -prune -o \
+    -path "$HOME/.config/joplin-desktop" -prune -o \
+    -path "$HOME/.cache" -prune -o \
+    -path "$HOME/.local/share" -prune -o \
+    -type f -print 2>/dev/null | \
+    fzf --height 40% --layout=reverse --border)
+
+  if [[ -n "$file" ]]; then
     "${EDITOR:-vi}" "$file"
   fi
 }
-
 # Bind Ctrl+F to insert and run ffc
 zvm_after_init() {
   bindkey -s '^f' 'ffc\n'

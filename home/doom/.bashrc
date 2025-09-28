@@ -24,7 +24,7 @@ PS1="\[\e[1;31m\][\[\e[1;36m\]\w\[\e[1;31m\]]\[\e[0m\] > "
 HISTSIZE=500000
 HISTFILESIZE=500000
 HISTFILE=~/.cache/bash/history
-shopt -s histappend          # append to history, don’t overwrite
+shopt -s histappend # append to history, don’t overwrite
 PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
 
 # Disable ctrl-s freeze
@@ -35,7 +35,7 @@ shopt -s autocd
 
 # Completion (bash built-in)
 if [ -f /etc/bash_completion ]; then
-    . /etc/bash_completion
+  . /etc/bash_completion
 fi
 
 # Vi mode
@@ -44,28 +44,27 @@ bind -m vi-insert '"\C-r": reverse-search-history'
 bind -m vi-insert '"\C-o": "lfcd\n"'
 bind '"\C-f": "ffc\n"'
 bind -m vi-insert '"\C-e": "\C-x\C-e"'
-bind '"\e[3~": delete-char'   # Delete key fix (like bindkey '^[[P')
+bind '"\e[3~": delete-char' # Delete key fix (like bindkey '^[[P')
 
 # Use lf to switch directories (ctrl-o)
-lfcd () {
-    tmp="$(mktemp)"
-    lf -last-dir-path="$tmp" "$@"
-    if [ -f "$tmp" ]; then
-        dir="$(cat "$tmp")"
-        rm -f "$tmp" >/dev/null
-        [ -d "$dir" ] && [ "$dir" != "$(pwd)" ] && cd "$dir"
-    fi
+lfcd() {
+  tmp="$(mktemp)"
+  lf -last-dir-path="$tmp" "$@"
+  if [ -f "$tmp" ]; then
+    dir="$(cat "$tmp")"
+    rm -f "$tmp" >/dev/null
+    [ -d "$dir" ] && [ "$dir" != "$(pwd)" ] && cd "$dir"
+  fi
 }
 
 # Save path on cd
 cd() {
-    builtin cd "$@" || return
-    pwd > ~/.cache/last_dir
+  builtin cd "$@" || return
+  pwd >~/.cache/last_dir
 }
 
 # Make Ctrl+L clear the screen
 bind '"\C-l": clear-screen'
-
 
 ################################################################
 #### ALIASES
@@ -96,7 +95,7 @@ alias \
   ytao="yt -x -f bestaudio/best -o '%(playlist_index)s-%(title)s.%(ext)s'" \
   ffmpeg="ffmpeg -hide_banner" \
   kindle_mount="mount -o rw,user,uid=1000,gid=998,umask=007"
-  # yta="yt -x --audio-format opus --cookies-from-browser brave -f bestaudio/best -o '%(title)s.%(ext)s'" \
+# yta="yt -x --audio-format opus --cookies-from-browser brave -f bestaudio/best -o '%(title)s.%(ext)s'" \
 
 # Colorize commands when possible.
 alias \
@@ -125,8 +124,7 @@ alias \
   xq="xbps-query" \
   z="zathura" \
   pwn="ssh hacker@pwn.college" \
-  nyx="ssh nyx@192.168.1.125" 2>/dev/null\
-
+  nyx="ssh nyx@192.168.1.125" 2>/dev/null
 alias \
   magit="nvim -c MagitOnly" \
   ref="shortcuts >/dev/null; source ${XDG_CONFIG_HOME:-$HOME/.config}/shell/shortcutrc ; source ${XDG_CONFIG_HOME:-$HOME/.config}/shell/zshnameddirrc" \
@@ -170,7 +168,7 @@ alias run="clear; gcc % ; ./a.out"
 
 # fzf
 
-ffc() { du -a $HOME/.config $HOME/.local/bin \
+ffc() { du -a $HOME $HOME/.config $HOME/.local/bin \
   --exclude '.config/libreoffice' \
   --exclude '.config/BraveSoftware' \
   --exclude '.config/JetBrains' \
@@ -181,6 +179,5 @@ ff() { fzf | xargs -r -I {} $EDITOR {}; }
 
 # Timer
 timer() {
-    (nohup python3 -u "$HOME/.local/bin/timer.py" "$1" > /dev/null 2>&1 &)
+  (nohup python3 -u "$HOME/.local/bin/timer.py" "$1" >/dev/null 2>&1 &)
 }
-
