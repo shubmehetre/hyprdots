@@ -1,0 +1,13 @@
+# ~/.config/kanshi/config
+
+profile docked {
+    output "Acer Technologies XV272U V3 543904B344222" mode 2560x1440@59.95 position 0,0 scale 1
+    output eDP-1 disable
+}
+
+profile undocked {
+    # force a common resolution/mode for your laptop panel;
+    # replace 1920x1080@60 if you know the laptop's native mode
+    output eDP-1 enable mode 1920x1080@60 position 0,0 scale 1
+}
+

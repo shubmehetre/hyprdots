@@ -8,6 +8,8 @@
   <property name="last-show-hidden" type="bool" value="true"/>
   <property name="last-image-preview-visible" type="bool" value="true"/>
   <property name="last-details-view-zoom-level" type="string" value="THUNAR_ZOOM_LEVEL_38_PERCENT"/>
-  <property name="last-details-view-column-widths" type="string" value="50,50,131,123,50,50,50,50,504,50,50,77,50,380"/>
+  <property name="last-details-view-column-widths" type="string" value="50,50,130,123,50,50,50,50,515,50,50,67,50,380"/>
   <property name="misc-expandable-folders" type="bool" value="true"/>
+  <property name="last-sort-column" type="string" value="THUNAR_COLUMN_DATE_MODIFIED"/>
+  <property name="last-sort-order" type="string" value="GTK_SORT_ASCENDING"/>
 </channel>
