@@ -1,9 +1,9 @@
-sw_volume: 90
+sw_volume: 100
 audio_device_state:1:Pipewire Sound Server
 audio_device_state:1:Visualizer feed
 state: pause
 current: 0
-time: 1314.779
+time: 1323.32
 random: 0
 repeat: 0
 single: 0
