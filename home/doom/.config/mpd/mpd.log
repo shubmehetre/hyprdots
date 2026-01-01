@@ -414,3 +414,57 @@ Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fu
 2025-12-22T20:22:08 player: played "playlists/focus/Programming _ Coding _ Hacking music vol.18 (ANONYMOUS HEADQUARTERS)-Z-VfaG9ZN_U.opus"
 2025-12-22T20:24:34 config: option "buffer_time" on line 20 was not recognized
 2025-12-22T20:24:34 config: option "period_time" on line 21 was not recognized
+2025-12-22T21:02:49 player: played "playlists/focus/Programming _ Coding _ Hacking music vol.18 (ANONYMOUS HEADQUARTERS)-Z-VfaG9ZN_U.opus"
+2025-12-22T21:08:26 config: option "buffer_time" on line 20 was not recognized
+2025-12-22T21:08:26 config: option "period_time" on line 21 was not recognized
+                                                                                                                                           2025-12-22T21:42:50 config: option "buffer_time" on line 20 was not recognized
+2025-12-22T21:42:50 config: option "period_time" on line 21 was not recognized
+2025-12-23T12:31:52 config: option "buffer_time" on line 20 was not recognized
+2025-12-23T12:31:52 config: option "period_time" on line 21 was not recognized
+2025-12-25T11:05:09 config: option "buffer_time" on line 20 was not recognized
+2025-12-25T11:05:09 config: option "period_time" on line 21 was not recognized
+2025-12-25T11:53:34 config: option "buffer_time" on line 20 was not recognized
+2025-12-25T11:53:34 config: option "period_time" on line 21 was not recognized
+2025-12-25T18:06:19 playlist: Failed to load "playlists/Hindi/ANIMAL： Haiwaan (Full Video) ｜ Ranbir Kapoor,Rashmika,Anil K,Bobby D ｜ Sandeep ｜ Ashim K ｜Bhushan K.opus".
+2025-12-25T18:06:19 playlist: Failed to load "playlists/Hindi/Mi Amor.opus".
+2025-12-25T18:10:15 player: played "playlists/Core/21 Savage, Metro Boomin - No Heart.mp3"
+2025-12-25T18:14:28 player: played "playlists/The_Hood/Travis Scott - goosebumps.mp3"
+2025-12-25T18:19:56 player: played "playlists/The_Hood/Easturn Vantage, Freddie Gibbs, 2Pac, RZA - Built for This.mp3"
+2025-12-25T18:23:26 player: played "playlists/Bandana_GAnG/Seedhe Maut - 101.mp3"
+2025-12-25T18:30:27 player: played "playlists/The_Hood/Tyga - Ice Cream Man (Audio) [rwSB4T97xt0].opus"
+2025-12-25T22:09:56 player: played "playlists/The_Hood/J. Cole - No Role Modelz.mp3"
+2025-12-26T14:41:51 config: option "buffer_time" on line 20 was not recognized
+2025-12-26T14:41:51 config: option "period_time" on line 21 was not recognized
+2025-12-27T02:17:45 player: played "playlists/The_Hood/J. Cole - No Role Modelz.mp3"
+2025-12-27T19:19:05 config: option "buffer_time" on line 20 was not recognized
+2025-12-27T19:19:05 config: option "period_time" on line 21 was not recognized
+2025-12-29T01:11:05 player: played "playlists/The_Hood/J. Cole - No Role Modelz.mp3"
+2025-12-29T09:38:29 config: option "buffer_time" on line 20 was not recognized
+2025-12-29T09:38:30 config: option "period_time" on line 21 was not recognized
+2025-12-29T23:46:06 player: played "playlists/The_Hood/J. Cole - No Role Modelz.mp3"
+2025-12-30T09:27:28 config: option "buffer_time" on line 20 was not recognized
+2025-12-30T09:27:28 config: option "period_time" on line 21 was not recognized
+2025-12-31T09:53:29 player: played "remix/Eminem, Offset, Tyga, Metro Boomin - 'Ric Flair Drip x Dubai Drip' Nitin Randhawa Remix.opus"
+2025-12-31T09:57:59 player: played "playlists/The_Hood/Travis Scott - STARGAZING.mp3"
+2025-12-31T10:00:31 player: played "playlists/The_Hood/Travis Scott - YOSEMITE.mp3"
+2025-12-31T10:05:01 player: played "playlists/The_Hood/Joyner Lucas - Revenge.mp3"
+2025-12-31T20:11:47 player: played "remix/Eminem, Offset, Tyga, Metro Boomin - 'Ric Flair Drip x Dubai Drip' Nitin Randhawa Remix.opus"
+2025-12-31T20:25:13 ffmpeg/opus: Could not update timestamps for skipped samples.
+2025-12-31T20:25:55 player: played "hip-hop/marathi/RX100 - MC GAWTHI (PROD.BY YD ) OFFCIAL MUSIC VIDEO 2022.opus"
+2025-12-31T20:34:28 ffmpeg/opus: Could not update timestamps for discarded samples.
+2025-12-31T20:34:28 ffmpeg/opus: Error parsing Opus packet header.
+2025-12-31T23:25:19 player: played "playlists/Bandana_GAnG/BATTI - Seedhe Maut x Sez on the Beat ft Ab 17.opus"
+2025-12-31T23:28:34 player: played "playlists/Bandana_GAnG/Gabru Da Naam (Official Video) - Ninja ｜ Deep Jandu ｜ Latest Punjabi Song 2023.opus"
+2025-12-31T23:31:29 player: played "playlists/Bandana_GAnG/Murder.opus"
+2025-12-31T23:40:05 player: played "playlists/Bandana_GAnG/MOST WANTED ｜ MC GAWTHI ｜ OFFICIAL MUSIC VIDEO ｜ PROD.BY YD.opus"
+2026-01-01T15:54:35 player: played "playlists/Bandana_GAnG/SHARN X BOHEMIA - Mi Amor Lyrics Ft Sonam Bajwa ｜ 40K ｜ The Paul 2024 ｜ MegaMix By Mohib Beats.opus"
+2026-01-01T16:00:16 config: option "buffer_time" on line 20 was not recognized
+2026-01-01T16:00:16 config: option "period_time" on line 21 was not recognized
+2026-01-01T16:16:53 player: played "playlists/Bandana_GAnG/SHARN X BOHEMIA - Mi Amor Lyrics Ft Sonam Bajwa ｜ 40K ｜ The Paul 2024 ｜ MegaMix By Mohib Beats.opus"
+2026-01-01T16:17:03 exception: Not playing
+2026-01-01T16:17:10 playlist: Failed to load "playlists/Hindi/ANIMAL： Haiwaan (Full Video) ｜ Ranbir Kapoor,Rashmika,Anil K,Bobby D ｜ Sandeep ｜ Ashim K ｜Bhushan K.opus".
+2026-01-01T16:17:10 playlist: Failed to load "playlists/Hindi/Mi Amor.opus".
+2026-01-01T16:20:34 player: played "playlists/The_Hood/Tyga - Ice Cream Man (Audio) [rwSB4T97xt0].opus"
+2026-01-01T16:25:16 player: played "playlists/The_Hood/J. Cole - No Role Modelz.mp3"
+2026-01-01T16:29:20 player: played "playlists/The_Hood/Dr. Dre, Hittman - Big Ego's.mp3"
+2026-01-01T16:35:11 player: played "remix/Eminem, Offset, Tyga, Metro Boomin - 'Ric Flair Drip x Dubai Drip' Nitin Randhawa Remix.opus"
