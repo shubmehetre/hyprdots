@@ -1,0 +1,1 @@
+/home/doom/.config/zsh/.zprofile
