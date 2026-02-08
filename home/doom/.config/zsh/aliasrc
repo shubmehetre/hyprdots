@@ -119,3 +119,6 @@ timer() {
 
 # Start Fredium
 alias freedium="docker compose --profile local -f /home/doom/zzz/repos/freedium-web/docker-compose/docker-compose.yml up -d postgres_freedium ; sleep 2; docker ps -a | grep postgres"
+
+# Find untracked config files
+alias untracked="hldots ls-files --others --exclude-standard --exclude='/home/doom/zzz' --exclude='/home/doom/synced' --exclude='/home/doom/go'  --exclude='/home/doom/.wine'  --exclude='/home/doom/.mozilla'  --exclude='/home/doom/.local/share/nvim' --exclude='/home/doom/.local' --exclude='/home/doom/.hyprdots' --exclude='/home/doom/.cache' --exclude='/home/doom/.config/obsidian' --exclude='/home/doom/Downloads'"
